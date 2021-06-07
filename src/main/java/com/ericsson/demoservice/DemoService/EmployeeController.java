@@ -20,7 +20,7 @@ public class EmployeeController {
 	
 	@RequestMapping("/emp/createDummy")
 	public void createDummyEmpoyee() {
-		employee.setId(1001); employee.setName("Abhigyan");
+		employee.setId(1001); employee.setName("Hrashikesh");
 		empData.put(1001, employee);
 		System.out.println("Created Employee Details"+ employee);
 	}
